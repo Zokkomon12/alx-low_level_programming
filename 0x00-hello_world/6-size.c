@@ -3,7 +3,7 @@
 /**
 * main - like a room where programs work
 *
-* Return : Always 0 (Success)
+* Return: Always 0 (return nothing)
 */
 int main(void)
 {
