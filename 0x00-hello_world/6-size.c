@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-* main - Prints the size of many var type
+* main - like a room where programs work
 *
-* Return : 0 (Success)
+* Return : Always 0 (Success)
 */
 int main(void)
 {
