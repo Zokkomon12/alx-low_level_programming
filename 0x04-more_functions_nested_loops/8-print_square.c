@@ -1,33 +1,26 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - main function
+ * print_square - prints square stuff
  *
- *
- * Return: a number
+ * @size: integer to set square size
  */
-int main(void)
+void print_square(int size)
 {
 	int i;
+	int j;
 
-	for (i = 1; i <= 100; i++)
+	if (size <= 0)
 	{
-		if (i % 3 == 0 || i % 5 == 0)
+		_putchar('\n');
+	} else
+	{
+		for (i = 0; i < size; i++)
 		{
-			if (i % 3 == 0)
+			for (j = 0; j < size; j++)
 			{
-				printf("Fizz");
+				_putchar('#');
 			}
-			if (i % 5 == 0)
-			{
-				printf("Buzz");
-			}
-		} else
-		{
-			printf("%d", i);
+			_putchar('\n');
 		}
-		if (i != 100)
-			printf(" ");
 	}
-	printf("\n");
-	return (0);
 }
