@@ -1,10 +1,6 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
-/**
- * is_palindrome - is palindrome
- * @s: string to do
- * Return: boolean
- */
+#include <stdio.h>
 int is_palindrome(char *s);
 /**
  * is_print_number - is prime or not
